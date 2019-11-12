@@ -1,0 +1,137 @@
+*{
+  margin:0;
+}
+
+
+
+
+
+@media screen and (max-width:480px){
+  /*画面幅が480pxまでなら、文字を青色にする*/
+
+  .main img{
+    width: 100vw;
+    height: auto;
+  }
+/* snow */
+
+.down_snow{
+  position:absolute;
+  top: -30vw;
+  left:0;
+}
+
+.snow1{
+  left:0vw;
+}
+
+.snow2{
+  left:20vw;
+}
+
+.snow3{
+  left:43vw;
+}
+
+.snow4{
+  left:65vw;
+}
+
+.snow5{
+  left:85vw;
+}
+
+
+
+/* snow */
+.content{
+  position: relative;/*相対配置*/
+}
+
+
+.intro {
+  width: 90vw;
+}
+
+.outro {
+  width: 90vw;
+}
+.intro p{
+  font-family: 'Jomolhari', serif;
+  text-align: center;
+  font-size: 20pt;
+  position: absolute;
+  top:0;
+  left:0;
+
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,75vw);
+  -webkit-transform: translate(-50%,75vw);
+  transform: translate(-50%,75vw);
+  margin:0;
+  padding:0;
+}
+
+.main {
+  position: absolute;
+  top:0;
+  left:0;
+
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,50vw);
+  -webkit-transform: translate(-50%,50vw);
+  transform: translate(-50%,50vw);
+  margin:0;
+  padding:0;
+}
+
+.outro p{
+  font-family: 'Jomolhari', serif;
+  font-size: 20pt;
+  text-align: center;
+  position: absolute;
+  top:0;
+  left:0;
+
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(10vw,53vw);
+  -webkit-transform: translate(10vw,53vw);
+  transform: translate(10vw,53vw);
+  margin:0;
+  padding:0;
+
+}
+/* animations */
+.intro{
+  /* ５秒かけてアニメーションする */
+  -webkit-animation-duration: 5s;
+  animation-duration:5s;
+  }
+
+
+
+.main{
+  animation-delay: 5s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+}
+
+.outro{
+    animation-delay: 9s;
+    animation-duration: 4s;
+}
+
+
+/* mediaの最後 */
+}
+
+body{
+  background: linear-gradient(#BDFFF3, #4AC29A)fixed;
+}
+
+.img_main img{
+  width:100vw;
+}
