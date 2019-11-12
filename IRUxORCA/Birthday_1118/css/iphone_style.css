@@ -66,9 +66,9 @@
 
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%,45vw);
-  -webkit-transform: translate(-50%,45vw);
-  transform: translate(-50%,50vw);
+  -ms-transform: translate(-50%,75vw);
+  -webkit-transform: translate(-50%,75vw);
+  transform: translate(-50%,75vw);
   margin:0;
   padding:0;
 }
@@ -86,6 +86,7 @@
   margin:0;
   padding:0;
 }
+  
 
 .outro p{
   font-family: 'Jomolhari', serif;
@@ -111,6 +112,9 @@
   animation-duration:5s;
   }
 
+.intro1{
+  animation-delay: 5s;
+  }
 
 
 .main{
