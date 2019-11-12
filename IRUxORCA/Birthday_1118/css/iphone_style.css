@@ -50,7 +50,7 @@
 
 
 .intro {
-  width: 90%;
+  width: 90vw;
 }
 
 .outro {
@@ -66,8 +66,8 @@
 
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%,50vw);
-  -webkit-transform: translate(-50%,50vw);
+  -ms-transform: translate(-50%,45vw);
+  -webkit-transform: translate(-50%,45vw);
   transform: translate(-50%,50vw);
   margin:0;
   padding:0;
