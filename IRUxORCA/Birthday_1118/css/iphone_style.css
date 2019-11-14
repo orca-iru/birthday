@@ -130,10 +130,10 @@
 
 
 /* mediaの最後 */
- }/
+ }
 
 body{
-  background: linear-gradient(#BDFFF3, #4AC29A)fixed !important;
+  background: linear-gradient(#BDFFF3, #4AC29A)fixed;
 }
 
 .img_main img{
